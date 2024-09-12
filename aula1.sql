@@ -8,7 +8,7 @@ CREATE TABLE aluno
 (
     id SERIAL,
     nome  VARCHAR(255),
-    cpf CHAR(11),
+    cpf VARCHAR(11),
     observacao TEXT,
     idade INTEGER,
     dinheiro NUMERIC(10,2),
